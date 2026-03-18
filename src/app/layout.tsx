@@ -9,8 +9,8 @@ const manrope = Manrope({
 });
 
 export const metadata: Metadata = {
-  title: "Hello World - Dream Maker Company",
-  description: "Building the future of minimalist design with clean typography",
+  title: "Hello World - Dream Maker Company | Minimalist Design",
+  description: "Dream Maker Company builds the future of minimalist design with clean typography and semantic HTML. We create accessible, performant web experiences that prioritize user experience and modern best practices.",
 };
 
 export default function RootLayout({
