@@ -10,12 +10,12 @@ export default function Home() {
         <p className="hero-subheadline">
           Building the future of minimalist design with clean typography
         </p>
-        <a href="#" className="cta-button" data-testid="cta-button">
+        <a href="/get-started" className="cta-button" data-testid="cta-button">
           Get Started
         </a>
       </main>
       
-      <footer role="contentinfo">
+      <footer role="contentinfo" data-testid="copyright">
         <p>&copy; 2026 Dream Maker Company. All rights reserved.</p>
       </footer>
     </>
