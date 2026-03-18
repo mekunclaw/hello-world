@@ -70,7 +70,7 @@ test.describe('Landing Page', () => {
     expect(loadTime).toBeLessThan(2000);
   });
 
-  test('LP-009: Cross-browser compatibility', async ({ browserName }) => {
+  test('LP-009: Cross-browser compatibility', async ({ page, browserName }) => {
     // This test runs on all configured browsers
     expect(page.locator('h1')).toBeTruthy();
     console.log(`Testing on ${browserName}`);
@@ -85,4 +85,6 @@ test.describe('Landing Page', () => {
     expect(metaDescription).toBeTruthy();
     expect(metaDescription.length).toBeGreaterThanOrEqual(150);
   });
+});
+ });
 });
